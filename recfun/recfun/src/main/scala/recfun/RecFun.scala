@@ -12,10 +12,17 @@ object RecFun extends RecFunInterface:
   /**
    * Exercise 1
    */
-  def pascal(c: Int, r: Int): Int = 
+  def pascal(c: Int, r: Int): Int = {
+    def helpPascal(col: Int, row: Int, acc:Int =1) : Int = {
+      if (col == 0 || col == row) acc
+      else pascal(col-1,row-1) + pascal(col,row-1)
+  }
+    helpPascal(c,r)
+}
     //Implementing without tailrec
-    if (row == 0 || col == row) 1
-    else  pascal(c-1,r-1) + pascal(c,r-1)
+    //if (c == 0 || c == r) 1
+    //else  pascal(c-1,r-1) + pascal(c,r-1)
+
 
   /**
    * Exercise 2
