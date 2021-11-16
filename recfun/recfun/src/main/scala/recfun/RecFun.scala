@@ -26,10 +26,11 @@ object RecFun extends RecFunInterface:
 
   /**
    * Exercise 2
+   * Use tail recursion with a helper function
    */
   def balance(chars: List[Char]): Boolean = ???
 
   /**
-   * Exercise 3
+   * Exercise 
    */
   def countChange(money: Int, coins: List[Int]): Int = ???
