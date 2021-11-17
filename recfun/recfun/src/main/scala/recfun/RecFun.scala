@@ -27,6 +27,13 @@ object RecFun extends RecFunInterface:
   /**
    * Exercise 2
    * Use tail recursion with a helper function
+   * 1. Add a helper function with (list, right panatheses, left parantheses)
+   * 2.Cases:
+     a) if empty -> 
+     b) left parantheses
+     c) right parantheses
+
+     if (left == right )
    */
   def balance(chars: List[Char]): Boolean = ???
 
