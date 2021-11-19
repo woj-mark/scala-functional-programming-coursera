@@ -26,7 +26,7 @@ object RecFun extends RecFunInterface:
 
   /**
    * Exercise 2
-   * Use tail recursion with a helper function
+   * Use tail recursion with a helper function. Traverse the string from left to right
    * 1. Add a helper function with (list, right panatheses, left parantheses)
    * 2.Cases:
      a) if empty -> 
@@ -35,7 +35,19 @@ object RecFun extends RecFunInterface:
 
      if (left == right )
    */
-  def balance(chars: List[Char]): Boolean = ???
+  def balance(chars: List[Char]): Boolean = {
+    def countBrackets(chars: List[Char], openBracket:Int =0) :Boolean ={
+      if (chars == Nil) openBracket ==0 //End of recursion, checking if balances out
+
+      else chars.head match{
+        case '(' => countBrackets(chars.tail, openBracket + 1)
+        case  ')' => if (openBracket > 0) countBrackets(chars.tail, openBracket - 1) else false
+        case _ => countBrackets(chars.tail, openBracket) //go to the next
+      }}
+      countBrackets(chars)
+    }
+
+
 
   /**
    * Exercise 
