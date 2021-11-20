@@ -52,4 +52,12 @@ object RecFun extends RecFunInterface:
   /**
    * Exercise 
    */
-  def countChange(money: Int, coins: List[Int]): Int = ???
+  def countChange(money: Int, coins: List[Int]): Int = 
+    //Base cases if money is 0 or coin purse is empties
+    if (money == 0) 1 
+    else if (coins.isEmpty) 0
+    //Main calculation- subtract the coins.head from the sum of money and repeat recursively 
+    //if the coin is smaller than the money
+    else if (coins.head <= money ) countChange(money-coins.head, coins) + countChange(money,coins.tail)
+    //Otherwise, go for the next coin
+    else countChange(money, coins.tail)
