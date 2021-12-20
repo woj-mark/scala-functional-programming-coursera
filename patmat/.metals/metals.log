@@ -1,0 +1,8 @@
+[0m2021.12.20 16:43:28 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat' for client Visual Studio Code 1.61.2.[0m
+[0m2021.12.20 16:43:30 INFO  time: initialize in 1.9s[0m
+[0m2021.12.20 16:43:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.20 16:43:31 WARN  no build tool detected in workspace 'C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.12.20 16:43:31 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 16:43:37 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.12.20 16:43:41 INFO  time: code lens generation in 8.39s[0m
+[0m2021.12.20 16:49:22 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m

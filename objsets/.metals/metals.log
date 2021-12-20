@@ -1,0 +1,44 @@
+[0m2021.11.25 01:05:55 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.25 01:05:58 INFO  time: initialize in 3.15s[0m
+[0m2021.11.25 01:05:59 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.25 01:05:59 WARN  no build tool detected in workspace 'C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.25 01:06:00 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 01:06:09 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Nov 25, 2021 1:06:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+[0m2021.11.25 01:06:11 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\test\scala\objsets\TweetSetSuite.scala[0m
+[0m2021.11.25 01:06:16 INFO  time: code lens generation in 4.25s[0m
+[0m2021.11.25 01:06:16 INFO  time: code lens generation in 15s[0m
+[0m2021.11.25 01:25:55 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 01:34:30 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetData.scala[0m
+Nov 25, 2021 1:34:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+[0m2021.11.25 01:34:32 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetReader.scala[0m
+[0m2021.11.25 01:34:33 INFO  time: code lens generation in 1.22s[0m
+[0m2021.11.25 01:34:33 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 01:34:34 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSetInterface.scala[0m
+Nov 25, 2021 1:34:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+[0m2021.11.25 01:34:38 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:19:01 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:25:01 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:25:03 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:25:19 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:26:06 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:26:38 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:30:54 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:32:01 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:33:56 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:37:51 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:37:58 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:38:07 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:38:15 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:39:02 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:39:16 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:40:23 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:43:11 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:43:33 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:45:57 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:48:45 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.11.25 06:48:56 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\objsets\objsets\src\main\scala\objsets\TweetSet.scala[0m
+[0m2021.12.20 12:18:22 INFO  shutting down Metals[0m
