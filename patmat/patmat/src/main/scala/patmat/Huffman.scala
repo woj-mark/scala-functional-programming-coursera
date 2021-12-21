@@ -235,7 +235,13 @@ trait Huffman extends HuffmanInterface:
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = {
+    //Use helper funnction
+     def step(x: Int, p: (Char, List[Bit])): (Char, List[Bit]) = p match {
+        case (c, bs) => (c, x :: bs)
+      }
+      a.map(step(0, _)) ::: b.map(step(1, _))
+    }
 
   /**
    * This function encodes `text` according to the code tree `tree`.
@@ -243,6 +249,7 @@ trait Huffman extends HuffmanInterface:
    * To speed up the encoding process, it first converts the code tree to a code table
    * and then uses it to perform the actual encoding.
    */
-  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = 
+   text.flatMap(c => codeBits(convert(tree))(c))
 
 object Huffman extends Huffman
