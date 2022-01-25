@@ -6,3 +6,77 @@
 [0m2021.12.20 16:43:37 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
 [0m2021.12.20 16:43:41 INFO  time: code lens generation in 8.39s[0m
 [0m2021.12.20 16:49:22 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 17:40:10 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 17:41:09 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 17:42:33 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 18:18:44 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 18:18:47 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 18:19:05 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 19:56:32 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:36:21 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:36:27 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:37:08 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:37:28 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:39:03 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:40:02 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:42:35 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.20 22:43:42 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 10:20:17 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+Dec 21, 2021 10:25:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1348
+Dec 21, 2021 10:29:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1561
+Dec 21, 2021 10:31:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1796
+Dec 21, 2021 10:31:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1843
+[0m2021.12.21 10:31:45 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+Dec 21, 2021 10:35:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1975
+[0m2021.12.21 10:36:09 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 10:37:05 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+Dec 21, 2021 10:41:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2306
+Dec 21, 2021 10:46:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2493
+[0m2021.12.21 10:50:32 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 10:52:50 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:03:23 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:04:09 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:06:54 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:07:45 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:09:24 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+Dec 21, 2021 11:22:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3685
+Dec 21, 2021 11:39:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5125
+[0m2021.12.21 11:40:03 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:40:57 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:43:15 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:43:21 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:44:00 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 11:55:06 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+Dec 21, 2021 12:03:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5745
+[0m2021.12.21 12:06:14 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:08:14 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:08:23 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:08:23 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:08:33 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:09:36 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:17:59 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:18:31 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:21:20 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:22:38 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:25:12 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:27:57 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2021.12.21 12:38:08 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2022.01.10 13:26:25 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat' for client Visual Studio Code 1.61.2.[0m
+[0m2022.01.10 13:26:30 INFO  time: initialize in 4.49s[0m
+[0m2022.01.10 13:26:35 WARN  Build server is not auto-connectable.[0m
+[0m2022.01.10 13:26:35 WARN  no build tool detected in workspace 'C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2022.01.10 13:26:35 WARN  no build target for: C:\Users\User\Programming\Scala\scala-functional-programming-coursera\patmat\patmat\src\main\scala\patmat\Huffman.scala[0m
+[0m2022.01.10 13:26:47 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.10 13:26:56 INFO  time: code lens generation in 19s[0m
+[0m2022.01.10 13:26:56 INFO  time: code lens generation in 8.42s[0m
+[0m2022.01.10 13:35:44 INFO  shutting down Metals[0m
