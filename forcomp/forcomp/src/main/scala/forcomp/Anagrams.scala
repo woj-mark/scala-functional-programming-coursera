@@ -36,13 +36,18 @@ object Anagrams extends AnagramsInterface:
    *  Note: you must use `groupBy` to implement this method!
    */
   def wordOccurrences(w: Word): Occurrences = {
-    for{
+    for(
     (char, charList) <- w.groupBy(char => char.toLower)
-  } yield (char, charList.size)}.toList.sortBy(_._1)
+  ) yield (char, charList.size)}.toList.sortBy(_._1)
   
   /** Converts a sentence into its character occurrence list. */
-  def sentenceOccurrences(s: Sentence): Occurrences = ???
-
+  def sentenceOccurrences(s: Sentence): Occurrences = {
+   for(
+      (char, letterMap) <- s.flatMap(w => wordOccurrences(w)).groupBy(_._1)
+   ) yield (char, letterMap.map(_._2).sum)}
+   .toList.sortBy(_._1)
+  
+  
   /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
    *  the words that have that occurrence count.
    *  This map serves as an easy way to obtain all the anagrams of a word given its occurrence list.
