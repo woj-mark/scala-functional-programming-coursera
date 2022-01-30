@@ -36,6 +36,7 @@ object Anagrams extends AnagramsInterface:
    *  Note: you must use `groupBy` to implement this method!
    */
   def wordOccurrences(w: Word): Occurrences = {
+    //Grouup By: Map(word, list of words)
     w.toLowerCase.groupBy(x => x).map(t => (t._1, t._2.length)).toList.sorted
   }
   /** Converts a sentence into its character occurrence list. */
@@ -89,7 +90,15 @@ object Anagrams extends AnagramsInterface:
    *  Note that the order of the occurrence list subsets does not matter -- the subsets
    *  in the example above could have been displayed in some other order.
    */
-  def combinations(occurrences: Occurrences): List[Occurrences] = ???
+  def combinations(occurrences: Occurrences): List[Occurrences] = 
+    //Solving recursiverly with pattern matching
+    occurrences match {
+    case List() => List(List()) //base case
+    case (char, num) :: xs => (for {
+      x <- 0 to num // for each number of the occurance, includes zeros too, to be filtered out at yield statement
+      tail <- combinations(xs)
+    } yield ((char, x) :: tail).filter(_._2 != 0)).toList //generates a list of combination pairs, filter out the zeroes
+  }
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
    *
@@ -101,7 +110,9 @@ object Anagrams extends AnagramsInterface:
    *  Note: the resulting value is an occurrence - meaning it is sorted
    *  and has no zero-entries.
    */
-  def subtract(x: Occurrences, y: Occurrences): Occurrences = ???
+  def subtract(x: Occurrences, y: Occurrences): Occurrences = 
+    //decompose inside a map and carry out the subtaction
+      x.map(a => (a._1, a._2 - y.toMap.getOrElse(a._1, 0))).filter(_._2 != 0) //remove the zero occurrances resulting from subtraction
 
   /** Returns a list of all anagram sentences of the given sentence.
    *
@@ -143,7 +154,19 @@ object Anagrams extends AnagramsInterface:
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] ={
+    //tail recursive solution. Add a helper function anagramHelp
+    def anagramHelp(occurrences: Occurrences): List[Sentence] = {
+      //base case
+      if (occurrences.isEmpty)  List(List())
+      else for {
+        c<- combinations(occurrences)
+        w <- dictionaryByOccurrences(c)
+        rest <- anagramHelp(subtract(occurrences, c))
+      } yield w :: rest
+    }
+    anagramHelp(sentenceOccurrences(sentence))
+  }
 
 object Dictionary:
   def loadDictionary: List[String] =
